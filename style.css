@@ -1,0 +1,41 @@
+/* --- TIPOGRAFIA GLOBAL --- */
+.stApp h1 {
+    font-size: 2.2rem !important;
+    letter-spacing: -0.5px;
+}
+
+/* Oculta o ícone SVG de âncora nos cabeçalhos */
+h1 a {
+    display: none !important;
+}
+
+/* --- CLASSE DO CARD CORPORATIVO UNIVERSAL --- */
+.card-container {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-background-color);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+/* --- ESTILIZAÇÃO DO BOTÃO PRINCIPAL --- */
+div.stButton > button {
+    width: 100%;
+    background-color: #660033;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #040518;
+}
+
+
+
+
